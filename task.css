@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    
+}
+.header-sec {
+    position: absolute;
+    float: left;
+    width: 100%;
+    z-index: 1;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-sec .logo img{
+        width: 100%;
+        display: block;
+        max-width: 300px;
+}
+.nav-sec ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-sec ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    color: #6a3009;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 15px;
+    border-bottom: 2px solid transparent;
+ 
+}
+.nav-sec ul li a:hover{
+    color: #DC7633;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #DC7633;
+}
+.nav-sec ul li{
+    margin-right: 15px;
+}
+.nav-sec ul li:last-child{
+    margin-right: 0;
+}
+.hdr-btn a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6a3009;
+    background-color: #F8C471;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.hdr-btn a:hover{
+    color: #F8C471;
+    background-color: #6a3009;
+}
+.banner-sec{
+    padding: 260px 0 50px;
+    position: relative;
+   /* background-image: url(D:\Front-End\Html\bg-banner.jpg);*/
+      
+      background-image: url(bg-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    display: block;
+}
+.banner-con h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+
+}
+.banner-con h1 span{
+    font-size: 82px;
+    color: #98760efc;
+    
+}
+.banner-con h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: #340806;
+    margin-bottom: 45px;
+}
+.banner-con{
+    width: 45%;
+}
+.banner-btn a{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6a3009;
+    background-color: #F8C471;
+    padding: 15px 50px;
+    display: inline-block;
+}
+.banner-btn a:hover{
+    color: #F8C471;
+    background-color: #6a3009;
+}
